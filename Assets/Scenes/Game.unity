@@ -5732,7 +5732,7 @@ MonoBehaviour:
   - {fileID: 281034222}
   - {fileID: 1584315380}
   - {fileID: 1550123138}
-  timeLimit: 60
+  timeLimit: 10
   stopwatchDisplay: {fileID: 213299893}
   isGameOver: 0
   choosingUpgrade: 0
