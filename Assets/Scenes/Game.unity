@@ -7989,7 +7989,7 @@ MonoBehaviour:
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
-  stepSource: {fileID: 1439750437}
+  stepSource: {fileID: 994291781}
   steps: {fileID: 8300000, guid: 551d550ab98e3cc4bb7793e752fe8628, type: 3}
 --- !u!61 &1439750429
 BoxCollider2D:
