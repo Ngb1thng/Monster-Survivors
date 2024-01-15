@@ -5732,7 +5732,7 @@ MonoBehaviour:
   - {fileID: 281034222}
   - {fileID: 1584315380}
   - {fileID: 1550123138}
-  timeLimit: 10
+  timeLimit: 600
   stopwatchDisplay: {fileID: 213299893}
   isGameOver: 0
   choosingUpgrade: 0
@@ -7112,6 +7112,37 @@ MonoBehaviour:
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
+    - Enemyname: Bat
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: ae168d580cb8f8c4199e95e5703280dc, type: 3}
+    - Enemyname: Blue Ghost
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 5194772605181579846, guid: ffa695ecdaa64334683651031dca2d11, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 3
+    enemyGroups:
+    - Enemyname: Red Bat
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 2
+    enemyGroups:
+    - Enemyname: Red Bat
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
+    waveQuota: 0
+    spawnInterval: 1
+    spawnCount: 0
+  - waveName: Wave 2
+    enemyGroups:
     - Enemyname: Red Bat
       enemyCount: 20
       spawnCount: 0
@@ -8245,6 +8276,12 @@ MonoBehaviour:
   - weaponUpgradeIndex: 1
     initialWeapon: {fileID: 3442306361850497267, guid: 53906bcc6e76fe846b156899b2b26d19, type: 3}
     weaponData: {fileID: 11400000, guid: c5027e685bdc37d47a376a4843b70497, type: 2}
+  - weaponUpgradeIndex: 2
+    initialWeapon: {fileID: 5041322460597818996, guid: 572d9b48c4e05c4488ff85f5cf3732b4, type: 3}
+    weaponData: {fileID: 11400000, guid: 961cef183272c0646b98b8fd59ec35f7, type: 2}
+  - weaponUpgradeIndex: 3
+    initialWeapon: {fileID: 5062742878550922635, guid: 6900e2df9b93b784aa18ee921030bfb7, type: 3}
+    weaponData: {fileID: 11400000, guid: 592462cd61cc88440b372ba14e209a71, type: 2}
   passiveItemUpgradeOptions:
   - passiveItemUpgradeIndex: 0
     initialPassiveItem: {fileID: 5317740407568487002, guid: 1a120ad129c91bb46836e5a12def057d, type: 3}
