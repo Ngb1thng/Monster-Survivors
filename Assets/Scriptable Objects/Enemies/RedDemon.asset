@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1badd11765e1d0b4abde5e2135596782, type: 3}
   m_Name: RedDemon
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  maxHealth: 10
-  damage: 20
+  moveSpeed: 2.5
+  maxHealth: 30
+  damage: 25

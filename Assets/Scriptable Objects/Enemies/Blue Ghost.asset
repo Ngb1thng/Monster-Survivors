@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Blue Ghost
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  maxHealth: 10
+  maxHealth: 30
   damage: 20

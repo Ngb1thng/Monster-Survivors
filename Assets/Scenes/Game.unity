@@ -5732,7 +5732,7 @@ MonoBehaviour:
   - {fileID: 281034222}
   - {fileID: 1584315380}
   - {fileID: 1550123138}
-  timeLimit: 600
+  timeLimit: 420
   stopwatchDisplay: {fileID: 213299893}
   isGameOver: 0
   choosingUpgrade: 0
@@ -7104,7 +7104,7 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - Enemyname: Bat
-      enemyCount: 20
+      enemyCount: 60
       spawnCount: 0
       enemyPrefab: {fileID: 1040805496507465772, guid: ae168d580cb8f8c4199e95e5703280dc, type: 3}
     waveQuota: 0
@@ -7112,49 +7112,90 @@ MonoBehaviour:
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
+    - Enemyname: Red Bat
+      enemyCount: 45
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
     - Enemyname: Bat
-      enemyCount: 20
+      enemyCount: 45
       spawnCount: 0
       enemyPrefab: {fileID: 1040805496507465772, guid: ae168d580cb8f8c4199e95e5703280dc, type: 3}
-    - Enemyname: Blue Ghost
-      enemyCount: 20
-      spawnCount: 0
-      enemyPrefab: {fileID: 5194772605181579846, guid: ffa695ecdaa64334683651031dca2d11, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 0.6
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
     - Enemyname: Red Bat
-      enemyCount: 20
+      enemyCount: 45
       spawnCount: 0
       enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
-    waveQuota: 0
-    spawnInterval: 1
+    - Enemyname: Bat
+      enemyCount: 45
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
+    - Enemyname: Blue Ghost
+      enemyCount: 45
+      spawnCount: 0
+      enemyPrefab: {fileID: 5194772605181579846, guid: ffa695ecdaa64334683651031dca2d11, type: 3}
+    waveQuota: 90
+    spawnInterval: 0.42
     spawnCount: 0
-  - waveName: Wave 2
+  - waveName: Wave 4
     enemyGroups:
     - Enemyname: Red Bat
-      enemyCount: 20
+      enemyCount: 50
       spawnCount: 0
       enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
-    waveQuota: 0
-    spawnInterval: 1
+    - Enemyname: Bat
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
+    - Enemyname: Blue Ghost
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 5194772605181579846, guid: ffa695ecdaa64334683651031dca2d11, type: 3}
+    - Enemyname: Angel
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 883730677505475984, guid: 8e0ca443e5c60f54d99699e158f55723, type: 3}
+    waveQuota: 130
+    spawnInterval: 0.3
     spawnCount: 0
-  - waveName: Wave 2
+  - waveName: Wave 5
     enemyGroups:
     - Enemyname: Red Bat
-      enemyCount: 20
+      enemyCount: 50
       spawnCount: 0
       enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
-    waveQuota: 0
+    - Enemyname: Bat
+      enemyCount: 30
+      spawnCount: 0
+      enemyPrefab: {fileID: 1040805496507465772, guid: b44b7ec892f90e147b74e389e95b27fb, type: 3}
+    - Enemyname: Blue Ghost
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 5194772605181579846, guid: ffa695ecdaa64334683651031dca2d11, type: 3}
+    - Enemyname: Angel
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 883730677505475984, guid: 8e0ca443e5c60f54d99699e158f55723, type: 3}
+    waveQuota: 180
+    spawnInterval: 0.33
+    spawnCount: 0
+  - waveName: Final Waves
+    enemyGroups:
+    - Enemyname: BigBoss
+      enemyCount: 1
+      spawnCount: 0
+      enemyPrefab: {fileID: 5215637356953222546, guid: 0aaffe1c488c7eb48b150d9ceabb3624, type: 3}
+    waveQuota: 1
     spawnInterval: 1
     spawnCount: 0
   currentWaveCount: 0
   EnemiesAlive: 0
-  maxEnemiesAllowed: 100
+  maxEnemiesAllowed: 200
   maxEnemiesReached: 0
-  waveInterval: 3
+  waveInterval: 60
   relativeSpawnPoints:
   - {fileID: 413061498}
   - {fileID: 271254568}
@@ -8217,7 +8258,10 @@ MonoBehaviour:
     endLevel: 3
     experienceCapIncrease: 100
   - startLevel: 4
-    endLevel: 5
+    endLevel: 10
+    experienceCapIncrease: 150
+  - startLevel: 10
+    endLevel: 15
     experienceCapIncrease: 200
   weaponIndex: 0
   passiveItemIndex: 0
@@ -8280,8 +8324,8 @@ MonoBehaviour:
     initialWeapon: {fileID: 5041322460597818996, guid: 572d9b48c4e05c4488ff85f5cf3732b4, type: 3}
     weaponData: {fileID: 11400000, guid: 961cef183272c0646b98b8fd59ec35f7, type: 2}
   - weaponUpgradeIndex: 3
-    initialWeapon: {fileID: 5062742878550922635, guid: 6900e2df9b93b784aa18ee921030bfb7, type: 3}
-    weaponData: {fileID: 11400000, guid: 592462cd61cc88440b372ba14e209a71, type: 2}
+    initialWeapon: {fileID: 6251029644865891998, guid: e7f59d6cc0617334ebaa79df8ac9f402, type: 3}
+    weaponData: {fileID: 11400000, guid: 058613dc4cba1f646b5c6820890fefe8, type: 2}
   passiveItemUpgradeOptions:
   - passiveItemUpgradeIndex: 0
     initialPassiveItem: {fileID: 5317740407568487002, guid: 1a120ad129c91bb46836e5a12def057d, type: 3}
@@ -8289,6 +8333,15 @@ MonoBehaviour:
   - passiveItemUpgradeIndex: 1
     initialPassiveItem: {fileID: 1681643420780655286, guid: 244400d4886a5df4886e3bcbe0a2a9f8, type: 3}
     passiveItemData: {fileID: 11400000, guid: 268d5df74f8562344808c2c1d5ced103, type: 2}
+  - passiveItemUpgradeIndex: 2
+    initialPassiveItem: {fileID: 1681643420780655286, guid: 8a5fde1d1c8edbb4aaf1f16b919591d4, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 07f8cdb1bb5cbe940858324fad20c9ac, type: 2}
+  - passiveItemUpgradeIndex: 3
+    initialPassiveItem: {fileID: 1681643420780655286, guid: c032e5abe3cd3434a847648cf421ff54, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 36d433847503e284cbdb4993250c77de, type: 2}
+  - passiveItemUpgradeIndex: 4
+    initialPassiveItem: {fileID: 1681643420780655286, guid: e2d06a4cf1924244d9f94b1a6208b3b1, type: 3}
+    passiveItemData: {fileID: 11400000, guid: 58afe04c534077547b77b1247d07f25e, type: 2}
   upgradeUIOptions:
   - upgradeNameDisplay: {fileID: 49382262}
     upgradeDescriptionDisplay: {fileID: 1992689338}

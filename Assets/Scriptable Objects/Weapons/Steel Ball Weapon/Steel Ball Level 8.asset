@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2edeb51e6fadb3488790a389fa897fe, type: 3}
+  m_Name: Steel Ball Level 8
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9094976719306271569, guid: f51aa82ca9e4a1c469b5fb25ddbee8dc, type: 3}
+  damage: 25
+  speed: 28
+  cooldownDuration: 1.3
+  pierce: 2
+  level: 8
+  nextLevelPrefab: {fileID: 0}
+  name: Steel Ball Level 8
+  description: Damage is up to 10
+  icon: {fileID: -1623988183, guid: 0112d402010962f4ebe37e27242ba7d2, type: 3}

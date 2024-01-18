@@ -199,4 +199,10 @@ MonoBehaviour:
   drops:
   - name: red potion
     itemPrefeb: {fileID: 3297783996517458571, guid: 28f260ced9f3d3049b71cd8152341977, type: 3}
-    dropRate: 50
+    dropRate: 10
+  - name: Blue Gem
+    itemPrefeb: {fileID: 868844318277997679, guid: e0bc21773d6c56b4eb66f13ba205abf9, type: 3}
+    dropRate: 30
+  - name: Green Gem
+    itemPrefeb: {fileID: 868844318277997679, guid: fdab1c1705ccaa7499eaac96b4741831, type: 3}
+    dropRate: 60

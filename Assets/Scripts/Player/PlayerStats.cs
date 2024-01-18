@@ -9,6 +9,7 @@ public class PlayerStats : MonoBehaviour
     CharacterScriptableObject characterData;
 
     //current stats
+    float currentMaxHealth;
     float currentHealth;
     float currentRecovery;
     float currentMoveSpeed;
@@ -167,7 +168,7 @@ public class PlayerStats : MonoBehaviour
         SpawnedWeapon(characterData.StartingWeapon);
         //SpawnedWeapon(secondWeaponTest);
         //SpawnedPassiveItem(passiveItem1);
-        SpawnedPassiveItem(passiveItem2);
+        //SpawnedPassiveItem(passiveItem2);
     }
 
     void Start()
